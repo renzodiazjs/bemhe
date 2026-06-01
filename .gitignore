@@ -1,0 +1,57 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Lazyweb design research
+.lazyweb/
+
+# Capturas TEMPORALES del producto con datos REALES de cliente (PII).
+# Reemplazar por capturas con datos DEMO y quitar estas líneas antes de deployar (B-09 / @Legal).
+/public/radar-real.png
+/public/dashboard-real.png
+
+# Referencias de diseño (incluyen capturas con PII real) — NO subir al repo.
+/reference/
+
+# Gobierno interno (estrategia, pricing, consejo ejecutivo) — SOLO local, NO al repo público.
+/CLAUDE.md
+/AGENTS.md
+/TICKETS.md
