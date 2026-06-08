@@ -6,11 +6,11 @@ export const pack = {
   tagline: "Contenido para petshops",
 
   whatsappNumber: "5493804854517",
-  whatsappMessage: "Hola! Vi la propuesta de contenido y quiero mi semana de muestra.",
+  whatsappMessage: "Hola! Vi la propuesta del Pack Tienda y quiero coordinar para arrancar.",
 
   nav: [
+    { label: "Muestra", href: "#muestra" },
     { label: "Planes", href: "#planes" },
-    { label: "Patitas", href: "/patitas" },
   ],
 
   hero: {
@@ -20,7 +20,7 @@ export const pack = {
     subtitle:
       "Me encargo de todo el contenido de tu petshop —posts, historias y carruseles, armados y publicados cada semana—. Vos solo respondés los pedidos que entran por WhatsApp.",
     cta: "Quiero mi semana de muestra",
-    trust: ["Sin permanencia", "Mes a mes", "Muestra sin cargo"],
+    trust: ["Sin permanencia", "Mes a mes", "Primera semana sin cargo"],
   },
 
   problema: {
@@ -40,10 +40,76 @@ export const pack = {
     ],
   },
 
+  muestra: {
+    eyebrow: "Una semana real",
+    title: "Esto no es promesa. Es lo que se publica.",
+    subtitle:
+      "Una semana completa de contenido, día por día, con el mismo sistema que voy a usar en tu tienda. Deslizá y mirá lo que recibís.",
+    nota: "Trabajo real producido para una tienda. En tu cuenta sale con TUS productos, tu marca y tus precios.",
+    semana: [
+      {
+        dia: "Lunes",
+        foco: "Abre la semana: apertura tomando pedidos + 3 productos en 2 formatos.",
+        piezas: [
+          { src: "/muestra/Historia-EstamosAndiendo.png", formato: "historia", alt: "Historia de apertura: estamos tomando pedidos" },
+          { src: "/muestra/EstadoW-Producto01-Lunes.png", formato: "post", alt: "Post de producto con precio" },
+          { src: "/muestra/Historia-Producto01-Lunes.png", formato: "historia", alt: "Historia del mismo producto" },
+          { src: "/muestra/EstadoW-Producto02-Lunes.png", formato: "post", alt: "Post de producto con precio" },
+          { src: "/muestra/Historia-Producto02-Lunes.png", formato: "historia", alt: "Historia del mismo producto" },
+          { src: "/muestra/EstadoW-Producto03-Lunes.png", formato: "post", alt: "Post de producto con precio" },
+          { src: "/muestra/Historia-Producto03-Lunes.png", formato: "historia", alt: "Historia del mismo producto" },
+        ],
+      },
+      {
+        dia: "Miércoles",
+        foco: "Tres productos nuevos, cada uno en post e historia.",
+        piezas: [
+          { src: "/muestra/EstadoW-Producto01-Miercoles.png", formato: "post", alt: "Post de producto con precio" },
+          { src: "/muestra/Historia-Producto01-Miercoles.png", formato: "historia", alt: "Historia del mismo producto" },
+          { src: "/muestra/EstadoW-Producto02-Miercoles.png", formato: "post", alt: "Post de producto con precio" },
+          { src: "/muestra/Historia-Producto02-Miercoles.png", formato: "historia", alt: "Historia del mismo producto" },
+          { src: "/muestra/EstadoW-Producto03-Miercoles.png", formato: "post", alt: "Post de producto con precio" },
+          { src: "/muestra/Historia-Producto03-Miercoles.png", formato: "historia", alt: "Historia del mismo producto" },
+        ],
+      },
+      {
+        dia: "Jueves",
+        foco: "Carrusel educativo + historia interactiva para fidelizar.",
+        piezas: [
+          { src: "/muestra/Carrusel01-.png", formato: "post", alt: "Carrusel educativo, portada" },
+          { src: "/muestra/Carrusel02-.png", formato: "post", alt: "Carrusel educativo, slide 2" },
+          { src: "/muestra/Carrusel03-.png", formato: "post", alt: "Carrusel educativo, slide 3" },
+          { src: "/muestra/Carrusel04-.png", formato: "post", alt: "Carrusel educativo, slide 4" },
+          { src: "/muestra/Historia-Interactiva-Jueves.jpg", formato: "historia", alt: "Historia interactiva con encuesta" },
+        ],
+      },
+      {
+        dia: "Viernes",
+        foco: "Cierre de semana: 3 productos en 2 formatos.",
+        piezas: [
+          { src: "/muestra/EstadoW-Producto01-Viernes.png", formato: "post", alt: "Post de producto con precio" },
+          { src: "/muestra/Historia-Producto01-Viernes.png", formato: "historia", alt: "Historia del mismo producto" },
+          { src: "/muestra/EstadoW-Producto02-Viernes.png", formato: "post", alt: "Post de producto con precio" },
+          { src: "/muestra/Historia-Producto02-Viernes.png", formato: "historia", alt: "Historia del mismo producto" },
+          { src: "/muestra/EstadoW-Producto03-Viernes.png", formato: "post", alt: "Post de producto con precio" },
+          { src: "/muestra/Historia-Producto03-Viernes.png", formato: "historia", alt: "Historia del mismo producto" },
+        ],
+      },
+      {
+        dia: "Sábado",
+        foco: "Historia de entretenimiento que educa y engancha.",
+        piezas: [
+          { src: "/muestra/H-Informativa.png", formato: "historia", alt: "Historia informativa para la audiencia" },
+        ],
+      },
+    ],
+  },
+
   planes: {
     eyebrow: "Planes",
     title: "Un sistema probado, a tu medida.",
-    subtitle: "Elegí cuánto querés crecer. Lo demás lo manejo yo.",
+    subtitle:
+      "Un pack definido, no un community manager a medida: elegís el plan, yo produzco y publico el contenido con un sistema ya probado. Vos solo respondés los pedidos.",
     items: [
       {
         name: "Arranque",
@@ -83,14 +149,14 @@ export const pack = {
 
   riesgo: {
     eyebrow: "Cero riesgo para vos",
-    items: ["Sin permanencia", "Mes a mes", "Te armo una semana de muestra antes de decidir"],
+    items: ["Sin permanencia", "Mes a mes", "Primera semana de muestra antes de decidir, sin cargo"],
   },
 
   ctaFinal: {
-    title: "Empecemos por tu semana de muestra.",
-    subtitle: "Te la armo con tus productos, sin compromiso. Si te gusta, seguimos.",
-    cta: "Escribime por WhatsApp",
-    reassure: "Te respondo yo, normalmente en el día.",
+    title: "¿Arrancamos? Agendemos 15 minutos.",
+    subtitle: "Coordinamos por WhatsApp, definimos el plan que te sirve y dejo lista tu primera semana de contenido. Sin permanencia: si no te suma, lo dejás.",
+    cta: "Agendemos por WhatsApp",
+    reassure: "Te respondo yo —no un bot—, normalmente en el día.",
   },
 
   patitasLink: {
