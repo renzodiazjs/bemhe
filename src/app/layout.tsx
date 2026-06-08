@@ -16,9 +16,9 @@ const nunitoSans = Nunito_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Patitas — Vos atendé tu local, yo cuido a tus clientes",
+  title: "bemhe — Contenido para petshops | Más pedidos por WhatsApp",
   description:
-    "El radar que detecta a tu cliente recurrente cuando deja de comprar y te avisa a tiempo para retenerlo. Hecho en Argentina para dueños de petshop.",
+    "Hacemos todo el contenido de tu petshop —posts, historias y carruseles— para que tomes más pedidos por WhatsApp. Planes desde $80.000/mes. La Rioja, Argentina.",
 };
 
 export default function RootLayout({
